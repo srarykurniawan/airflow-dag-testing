@@ -38,8 +38,7 @@ Contoh output:
 [  
   {"name": "apple"},  
   {"name": "banana"},  
-  {"name": "orange"}  
-]  
+  {"name": "orange"}  ]  
 2️⃣ transform_task      
 - Mengambil data dari XCom (extract_task)    
 - Melakukan transformasi dengan mengubah nilai menjadi uppercase    
@@ -49,8 +48,7 @@ Contoh output:
 [
   {"name": "APPLE"},  
   {"name": "BANANA"},  
-  {"name": "ORANGE"}  
-]  
+  {"name": "ORANGE"}  ]  
 3️⃣ load_task
 - Melakukan validasi akhir    
 - Memastikan data tidak kosong sebelum dianggap sukses    
