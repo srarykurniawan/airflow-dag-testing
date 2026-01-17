@@ -41,8 +41,8 @@ Contoh output:
 2️⃣ transform_task      
 - Mengambil data dari XCom (extract_task)    
 - Melakukan transformasi dengan mengubah nilai menjadi uppercase    
-- Fallback mechanism:  
-- Jika XCom tidak tersedia (mode airflow tasks test), task tetap berjalan dengan data dummy  
+Fallback mechanism:  
+Jika XCom tidak tersedia (mode airflow tasks test), task tetap berjalan dengan data dummy  
 Contoh output:  
 [  {"name": "APPLE"},  
   {"name": "BANANA"},  
