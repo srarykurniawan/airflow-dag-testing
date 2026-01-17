@@ -35,8 +35,7 @@ extract_task → transform_task → load_task
 Menghasilkan data dummy berbentuk list of dictionary    
 Data otomatis disimpan ke XCom    
 Contoh output:  
-[  
-  {"name": "apple"},  
+[  {"name": "apple"},  
   {"name": "banana"},  
   {"name": "orange"}  ]  
 2️⃣ transform_task      
@@ -45,8 +44,7 @@ Contoh output:
 - Fallback mechanism:  
 - Jika XCom tidak tersedia (mode airflow tasks test), task tetap berjalan dengan data dummy  
 Contoh output:  
-[
-  {"name": "APPLE"},  
+[  {"name": "APPLE"},  
   {"name": "BANANA"},  
   {"name": "ORANGE"}  ]  
 3️⃣ load_task
